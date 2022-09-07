@@ -1,0 +1,125 @@
+
+@media only screen and (min-width: 1200px){
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+}
+
+
+
+.bg {
+    /* The image used */
+    background-image: url("images/jonathan-lampel-L9wrEGJjRdo-unsplash.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text-block {
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 50px 50px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 18px;
+  }
+
+  .text-block a{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 7px 7px;
+    text-align: center;
+    font-style: italic;
+    
+  }
+
+  span{
+    color: red;
+    font-style: italic;
+  }
+
+  .soso{
+    padding-top: 15px;
+  }
+
+  .secret {
+    padding: 64px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+    border-radius: 50%;
+  }
+  
+  .column-33 {
+    float: left;
+    width: 33.33333%;
+    padding: 20px;
+    border-radius: 50%;
+  }
+  
+  .large-font {
+    font-size: 48px;
+  }
+  
+  .xlarge-font {
+    font-size: 64px
+  }
+  
+  .button  {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    padding-top: 10px;
+    text-decoration: none;
+  }
+  
+  img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+  .mmj{
+    color: red;
+    text-align: right;
+    margin-left: 150px;
+  }
+
+  .secret p{
+    text-align: left;
+  }
+  
+  
+  
+  }

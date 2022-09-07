@@ -1,0 +1,114 @@
+@media only screen and (max-width: 320px){
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    
+    body,html{
+        height: 100%;
+        width: 100%;
+    }
+
+    .bg {
+      /* The image used */
+      background-image: url("images/jonathan-lampel-L9wrEGJjRdo-unsplash.jpg");
+    
+      /* Full height */
+      height: 100%; 
+      width: 100%;
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+      .text-block {
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        background-color: black;
+        color: white;
+        padding-left: 2px;
+        padding-right: 2px;
+        padding: 5px 5px;
+        text-align: center;
+        border-radius: 5px;
+        font-size: 10px;
+      }
+
+      .text-block a{
+        color: white;
+        background-color: red;
+        text-decoration: none;
+        padding: 5px 5px;
+        text-align: center;
+        font-style: italic;
+        font-size: 12px;
+      }
+
+      .secret {
+        padding: 4px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 100%;
+      }
+
+      .column-66 {
+        float: left;
+        width: 100%;
+        padding: 2px;
+        border-radius: 5%;
+      }
+
+      .column-33 {
+        float: left;
+        width: 100%;
+        padding: 2px;
+        border-radius: 5%;
+
+      }
+
+      .lkl{
+        margin-top: 20px;
+      }
+
+      .large-font {
+        font-size: 25px;
+        margin: 5px;
+        text-align: left;
+      }
+
+      img{
+        border-radius: 5px;
+      }
+
+      .xlarge-font {
+        font-size: 30px;
+        padding-bottom: 10px;
+        margin: 5px;
+        padding-top: 10px;
+        text-align: left;
+      }
+
+      .secret p{
+        margin: 10px;
+        text-align: center;
+      }
+
+      .button  {
+        border: none;
+        color: white;
+        padding: 10px 8px;
+        font-size: 10px;
+        cursor: pointer;
+        background-color: #4CAF50;
+        padding-top: 10px;
+        text-decoration: none;
+      }
+      
+      
+    
+    
+}
